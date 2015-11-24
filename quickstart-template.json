@@ -294,7 +294,7 @@
                 "image": "library/${APP_NAME}:latest",
                 "env": [
                     {
-                        "AB_JOLOKIA_AUTH_OPENSHIFT": "false",
+                        "AB_JOLOKIA_AUTH_OPENSHIFT": "false"
                     }
                 ],
                 "readinessProbe": {
