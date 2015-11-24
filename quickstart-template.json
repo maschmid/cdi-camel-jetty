@@ -19,7 +19,7 @@
       "name": "GIT_REPO",
       "required": true,
       "description": "Git repository, required",
-      "value":"http://gitlab.xpaasqe.redhat.com/ose3/cdi-camel-jetty.git"
+      "value":"https://github.com/maschmid/cdi-camel-jetty.git"
     },
     {
       "name": "GIT_REF",
