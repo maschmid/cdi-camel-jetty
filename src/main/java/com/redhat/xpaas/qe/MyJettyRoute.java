@@ -38,9 +38,9 @@ public class MyJettyRoute extends RouteBuilder {
         from(jettyEndpoint)
             .choice()
                 .when(header("name"))
-                    .delay(simple("5000"))
+//                    .delay(simple("5000"))
                     .transform(simple("Hello ${header.name} I am ${sysenv.HOSTNAME} how are you?"))
-                .endChoice()
+//                .endChoice()
                 .otherwise()
                     .transform(constant("Add a name parameter to uri, eg ?name=foo"));
     }
