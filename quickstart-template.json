@@ -292,6 +292,11 @@
               {
                 "name": "${APP_NAME}",
                 "image": "library/${APP_NAME}:latest",
+                "env": [
+                    {
+                        "AB_JOLOKIA_AUTH_OPENSHIFT": "false",
+                    }
+                ],
                 "readinessProbe": {
                   "exec": {
                     "command": [
